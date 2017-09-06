@@ -4,191 +4,166 @@
 <!-- Head -->
 
 <head>
-    <title>HTML Basics </title>
+    <title >HTML Basics </title>
     <link rel="icon"  type="image/png" href="images/fav.png">
+    <link rel="stylesheet" href="style.css">
+
 
     <!--<style type="text/css">
         .topic-header {
             font: 30px Sans-serif;
             padding: 5px;
-           
+
         }
         h1{
             color:green;
         }
-        
+
     </style>-->
 
-    <style type="text/css">
-     /*target{
-         attribute : value;
 
-     }*/
-     .topic-header{
-         color:#fff;               /*content color*/
-            /*container color*/
-         text-align: center;
-         padding:10px;
-
-         background: black;
-     }
-    
-     
-
-
-    
-
-     /* style priority 
-       1. internal  
-       2. id
-       3. class
-     */
-
-
-
-    </style>
 </head>
 
 <!-- Body -->
 
 <body>
 
-    <!-- header -->
-    <header style="font: 40px Sans-serif ; text-align:center">HTML Basics </header>
+<!-- header -->
+<header>HTML Basics </header>
 
-    <!-- main -->
-    <main>
-        <!--  ordered list-->
-        <ol>
-            <li><a href="#headings">headings </a></li>
-            <li><a href="#para">paragraph, span &amp; div</a></li>
-            <li><a href="#anchors">anchors</a></li>
-            <li><a href="#">lists</a></li>
-            <li><a href="#">images</li>
-            <li><a href="#">form</a></li>
-            <li><a href="#">entities</a></li>
-            <li> <a href="#">text formatting </a></li>
-        </ol>
-
-
-        <div  class="topic-header" >Headings </div>
+<!-- main -->
+<main>
+    <!--  ordered list-->
+    <ol>
+        <li><a href="#headings">headings </a></li>
+        <li><a href="#para">paragraph, span &amp; div</a></li>
+        <li><a href="#anchors">anchors</a></li>
+        <li><a href="#">lists</a></li>
+        <li><a href="#">images</li>
+        <li><a href="#">form</a></li>
+        <li><a href="#">entities</a></li>
+        <li> <a href="#">text formatting </a></li>
+    </ol>
 
 
-
-        <h1>Level 1 Heading </h1>
-        <h2>Level 2 Heading </h2>
-        <h3>Level 3 Heading </h3>
-        <h4>Level 4 Heading </h4>
-        <h5>Level 5 Heading </h5>
-        <h6>Level 6 Heading </h6>
+    <div  class="topic-header" >Headings </div>
 
 
-  <div id="para" class="topic-header" >Paragraph </div>
 
-        <p style="border: 1px solid red">
-            Pluralsight is a privately held online education ---- I'm a paragraph and i'm a block level element
-        </p>
+    <h1>Level 1 Heading </h1>
+    <h2>Level 2 Heading </h2>
+    <h3>Level 3 Heading </h3>
+    <h4>Level 4 Heading </h4>
+    <h5>Level 5 Heading </h5>
+    <h6>Level 6 Heading </h6>
 
-       
 
-        <span style="border: 1px solid black">
+    <div id="para" class="topic-header" >Paragraph </div>
+
+    <p >
+        Pluralsight is a privately held online education ---- I'm a paragraph and i'm a block level element
+    </p>
+
+
+
+    <span >
             Pluralsight is a privately held online education --- i'm a span and i'm an inline element
        </span>
 
 
-        <div >Pluralsight is a privately held online education---I'm a div and I'm a block level element</div>
+    <div >Pluralsight is a privately held online education---I'm a div and I'm a block level element</div>
 
-  <div id="anchors"   class="topic-header">Anchors </div>
+    <div id="anchors"   class="topic-header">Anchors </div>
 
-        This is a hyper link : <a href="https://www.google.com" title="Will navigate to google" target="_blank">Click Here </a>
+    This is a hyper link : <a href="https://www.google.com" title="Will navigate to google" target="_blank">Click Here </a>
 
-        <br>
-        <br>
-        <!--   unordered list-->
-        <span> un-ordered list</span>
-        <ul>
-            <li>List Item 1 </li>
-            <li>List Item 2</li>
-            <li>List Item 3</li>
-            <li>List Item 4</li>
-            <li>List Item 5</li>
-        </ul>
+    <br>
+    <br>
+    <!--   unordered list-->
+    <span> un-ordered list</span>
+    <ul>
+        <li>List Item 1 </li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
 
-        <span> ordered list</span>
-        <ol>
-            <li>List Item 1 </li>
-            <li>List Item 2</li>
-            <li>List Item 3</li>
-            <li>List Item 4</li>
-            <li>List Item 5</li>
-        </ol>
+    <span> ordered list</span>
+    <ol>
+        <li>List Item 1 </li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ol>
 
 
-<figure >
+    <figure >
         <!--    Image-->
 
-        <img src="images/main.jpg" alt="Main image" style="width: 200px ; height:200px; border: 1px solid red;" title="Scenery" />
+        <img src="images/main.jpg" alt="Main image" title="Scenery" />
         <figcaption> This is my native place</figcaption>
 
-        </figure>
+    </figure>
 
-        <!--   form -->
-
-
-        <div class="topic-header">Form </div>
-
-        <form>
-
-            <h2> User Input Form</h2>
-            <fieldset >
-                <legend > User Details</legend>
-                <div>Name <input type="text" /></div>
-
-                <div>Password <input type="password" /></div>
-
-                Gender <input type="radio" name="gender" value="male" /> male
-                <input type="radio" name="gender" value="female" /> female
-
-            </fieldset>
+    <!--   form -->
 
 
-            <div>Language <input type="checkbox" /></div>
-        </form>
+    <div class="topic-header">Form </div>
+
+    <form>
+
+        <h2> User Input Form</h2>
+        <fieldset >
+            <legend > User Details</legend>
+            <div>Name <input type="text" /></div>
+
+            <div>Password <input type="password" /></div>
+
+            Gender <input type="radio" name="gender" value="male" /> male
+            <input type="radio" name="gender" value="female" /> female
+
+        </fieldset>
 
 
-        <div id="entity" class="topic-header">Entities</div>
-        <!-- &entity-code;  -->
-
-        <div> Less than '<' &lt; </div>
-<div>  Greater than '>' &lt; </div>
-        <div> Copy right &copy; </div>
-        <div> space &nbsp; </div>
+        <div>Language <input type="checkbox" /></div>
+    </form>
 
 
-   
+    <div id="entity" class="topic-header">Entities</div>
+    <!-- &entity-code;  -->
+
+    <div> Less than '<' &lt; </div>
+    <div>  Greater than '>' &lt; </div>
+    <div> Copy right &copy; </div>
+    <div> space &nbsp; </div>
+
+
+
 
 
     <div class="topic-header">text formatting</div>
 
     <div>
-            This is bold style <b> Pluralsight is a privately held online education </b>
-       </div>
+        This is bold style <b> Pluralsight is a privately held online education </b>
+    </div>
 
-       <div>
-            This is strong  <strong> Pluralsight is a privately held online education </strong>
-       </div>
+    <div>
+        This is strong  <strong> Pluralsight is a privately held online education </strong>
+    </div>
 
-       <div>
-            This is italic style <i> Pluralsight is a privately held online education </i>
-       </div>
-       
-       
- </main>
+    <div>
+        This is italic style <i> Pluralsight is a privately held online education </i>
+    </div>
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+
+</main>
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
@@ -200,10 +175,10 @@
 
 
 
-    <!-- footer -->
-    <footer>
-        <div> &copy; All rights reserved, HTML Basics</div>
-    </footer>
+<!-- footer -->
+<footer>
+    <div> &copy; All rights reserved, HTML Basics</div>
+</footer>
 
 
 </body>
