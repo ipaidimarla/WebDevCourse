@@ -1,0 +1,47 @@
+
+/* css selectors
+
+  target (selector) {
+
+       property : value;
+
+  }
+
+
+*/
+
+header{
+
+    /*box-model*/
+
+
+    background-color: darkcyan;   /*container -color*/
+    padding:20px;
+
+    border:3px solid red;
+
+    margin-top: 20px;
+
+
+
+    /*font*/
+
+    font-size: 30px;
+    color :white;    /*content-color */
+    text-align: center;
+
+}
+
+
+a{
+    text-decoration:none ;
+
+}
+
+
+.topic-header{
+    background-color: tomato;
+
+}
+
+
