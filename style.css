@@ -30,6 +30,13 @@ header{
     color :white;    /*content-color */
     text-align: center;
 
+
+
+}
+
+
+footer{
+    background-color: darkviolet;
 }
 
 
@@ -38,10 +45,31 @@ a{
 
 }
 
-
-.topic-header{
-    background-color: tomato;
-
+h1{
+    color: slateblue;
 }
+
+ol{
+    text-transform: uppercase;
+}
+
+li{
+
+    padding-bottom: 5px;
+}
+
+main{
+
+    width:80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
 
 
