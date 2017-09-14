@@ -10,6 +10,9 @@
 
 */
 
+
+
+
 header{
 
     /*box-model*/
@@ -36,7 +39,9 @@ header{
 
 
 footer{
-    background-color: darkviolet;
+    background-color: darkgray;
+    Padding:25px;
+    text-align: center;
 }
 
 
@@ -65,11 +70,19 @@ main{
 }
 
 
+.topic-header{
+    background-color: tomato;
+    padding:10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:15px;
+    border: 1px solid black;
+}
 
 
-
-
-
+#top-btn{
+    margin-top: 10px;
+}
 
 
 

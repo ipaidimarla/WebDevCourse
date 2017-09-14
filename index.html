@@ -5,7 +5,7 @@
 
 <head>
     <title >HTML Basics </title>
-    <link rel="icon"  type="image/png" href="images/fav.png">
+    <link rel="icon"  type="image/png" href="Images/fav.png">
     <link rel="stylesheet" href="style.css">
 
 
@@ -38,11 +38,11 @@
         <li><a href="#headings">headings </a></li>
         <li><a href="#para">paragraph, span &amp; div</a></li>
         <li><a href="#anchors">anchors</a></li>
-        <li><a href="#">lists</a></li>
-        <li><a href="#">images</li>
-        <li><a href="#">form</a></li>
-        <li><a href="#">entities</a></li>
-        <li> <a href="#">text formatting </a></li>
+        <li><a href="#lists">lists</a></li>
+        <li><a href="#image">images</a></li>
+        <li><a href="#form">form</a></li>
+        <li><a href="#entity">entities</a></li>
+        <li> <a href="#format">text formatting </a></li>
     </ol>
 
 
@@ -81,6 +81,8 @@
 
     <br>
     <br>
+
+    <div id="lists"   class="topic-header">List </div>
     <!--   unordered list-->
     <span> un-ordered list</span>
     <ul>
@@ -100,19 +102,20 @@
         <li>List Item 5</li>
     </ol>
 
+    <div id="image"   class="topic-header">Image </div>
 
     <figure >
         <!--    Image-->
 
-        <img src="images/main.jpg" alt="Main image" title="Scenery" />
-        <figcaption> This is my native place</figcaption>
+        <img src="Images/boxmodel-image.png" alt="Main image" title="CSS Box Model" />
+        <figcaption> This is css box model</figcaption>
 
     </figure>
 
     <!--   form -->
 
 
-    <div class="topic-header">Form </div>
+    <div id="form" class="topic-header">Form </div>
 
     <form>
 
@@ -126,26 +129,28 @@
             Gender <input type="radio" name="gender" value="male" /> male
             <input type="radio" name="gender" value="female" /> female
 
+            <div>Languages Known <input type="checkbox" /> English <input type="checkbox" /> Spanish <input type="checkbox" /> German </div>
+
         </fieldset>
 
 
-        <div>Language <input type="checkbox" /></div>
+
     </form>
 
 
     <div id="entity" class="topic-header">Entities</div>
     <!-- &entity-code;  -->
 
-    <div> Less than '<' &lt; </div>
-    <div>  Greater than '>' &lt; </div>
-    <div> Copy right &copy; </div>
-    <div> space &nbsp; </div>
+    <div> To display Less than '<' symbol --- <span>&amp;lt;</span> </div>
+    <div> To display Greater than '>' symbol --- <span>&amp;gt;</span> </div>
+    <div> To display Copy right &copy; symbol --- <span>&amp;copy;</span>  </div>
+    <div> To display space &nbsp;---  <span> &ampnbsp; </span> </div>
 
 
 
 
 
-    <div class="topic-header">text formatting</div>
+    <div id="format" class="topic-header">Text formatting</div>
 
     <div>
         This is bold style <b> Pluralsight is a privately held online education </b>
@@ -158,7 +163,7 @@
     <div>
         This is italic style <i> Pluralsight is a privately held online education </i>
     </div>
-
+    <div id="top-btn" > <a href="#top" > TOP</a></div>
 
 </main>
 
@@ -173,7 +178,7 @@
 
 
 
-<div> <a href="#top" > TOP</a></div>
+
 
 
 
